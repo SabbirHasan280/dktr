@@ -7,7 +7,6 @@
 body {
   background: #010a25;
   height: 100vh;
-  overflow: hidden;
 }
 a {
   text-decoration: none;
@@ -92,10 +91,29 @@ button {
   border-radius: 10px;
   margin-top: 40px;
 }
-
 button:hover {
   opacity: 0.8;
 }
+/* demo button css */
+a.demo_btn{
+  background-color: rgba(255, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 17px;
+  font-weight: 400;
+  padding: 14px 0px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 40px;
+  display: block;
+  text-align: center;
+}
+a.demo_btn:hover {
+  opacity: 0.8;
+}
+
 /* daktr part end */
 
 /* select part start */
